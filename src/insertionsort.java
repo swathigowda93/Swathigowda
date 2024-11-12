@@ -5,7 +5,7 @@ public class insertionsort {
     public static void insertionsort(int[] array) {
         int n = array.length;
         for (int i = 1; i < n; i++) {
-            int key = array[i];9968
+            int key = array[i];
             int j = i - 1;
 
             // Move elements of array[0..i-1] that are greater than key
